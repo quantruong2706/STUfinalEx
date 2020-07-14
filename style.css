@@ -172,11 +172,7 @@ a.btn.btn-outline-secondary.nutxem {
   right: 0;
   left: 0;
   bottom: 0;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 2%,
-    rgba(255, 255, 255, 0.4066001400560224) 100%
-  );
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 2%, rgba(255, 255, 255, 0.4066001400560224) 100%);
 }
 .item-overlay1 {
   width: 100%;
@@ -225,6 +221,9 @@ a.btn.btn-outline-secondary.nutxem {
 }
 .all_grid-icon {
   padding-bottom: 3rem;
+}
+.grid-icon a {
+  text-decoration: none;
 }
 /* grid */
 .grid-icon {
